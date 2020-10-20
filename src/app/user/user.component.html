@@ -1,0 +1,13 @@
+<!-- <p>{{ user.id }} - {{ user.name | uppercase }} - {{ user.name | lowercase }}</p> -->
+
+<!-- Para recibir argumentos-------------------------------------------
+<p>{{ user.id }} - {{ user.name | myPipe:'':'' }}</p> -->
+
+<!-- Los Pipes se ejecutan una única vez al cargar la página -->
+
+<!-- Ejemplo 1
+<p>{{ user.id }} - {{ user.name | myPipe }}</p> -->
+
+<p>{{ user.id }} - {{ user.name | myPipe:'lower'}}</p>
+
+<button (click)="onSendData()">Enviar Datos al padre</button>
